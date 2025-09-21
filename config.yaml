@@ -1,0 +1,19 @@
+gateways:
+  postgres:
+    connection:
+      type: postgres
+      host: postgres_destination
+      user: user
+      password: password
+      port: '5432'
+      database: mydatabase
+default_gateway: postgres
+model_defaults:
+  dialect: postgres
+  start: '2025-09-20'
+  cron: '@daily'
+linter:
+  enabled: true
+  rules:
+    - ambiguousorinvalidcolumn
+    - invalidselectstarexpansion

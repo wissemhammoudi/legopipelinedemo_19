@@ -1,0 +1,14 @@
+{
+  "pipeline_name": "sql_database_postgres",
+  "target_schema": "public",
+  "tables": [
+    "lego_colors",
+    "lego_inventories",
+    "lego_inventory_parts",
+    "lego_inventory_sets",
+    "lego_part_categories",
+    "lego_parts",
+    "lego_sets",
+    "lego_themes"
+  ]
+}
